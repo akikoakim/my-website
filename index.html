@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Embed</title>
+    <style>
+        /* Set the background to black */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Apply sad animation */
+        @keyframes sadAnimation {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-10px); /* Move left slightly */
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Style the TikTok embed container */
+        .tiktok-embed {
+            display: inline-block;
+            animation: sadAnimation 1.5s ease-in-out infinite; /* Apply shaking animation */
+            margin-top: 20px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>如果我迷路了，你们最好来找我，我不能一个人在黑暗中!</h1>
+
+    <!-- TikTok Video Embed -->
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yonzie_/video/7205793835694263579?q=sad%20moment%20one%20piece&t=1746803281098" data-video-id="7205793835694263579" style="max-width: 605px;min-width: 325px;">
+        <section>
+            <a target="_blank" title="@yonzie_" href="https://www.tiktok.com/@yonzie_">@yonzie_</a>
+        </section>
+    </blockquote>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+
+</body>
+</html>
